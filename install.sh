@@ -2,7 +2,7 @@
 
 rm -f ~/.zshrc
 
-stow --target ~/ . -v
+stow --target ~/.config . -v
 
 stow -t ~ nvim
 stow -t ~ starship
