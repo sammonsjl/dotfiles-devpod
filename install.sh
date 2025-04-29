@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -f ~/.zshrc
+
 stow --target ~/ . -v
 
 stow -t ~ nvim
