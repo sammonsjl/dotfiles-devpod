@@ -18,4 +18,4 @@ git config --global commit.gpgsign true
 git config --global user.signingkey "$PUBLIC_KEY"
 git config --global --unset gpg.ssh.program
 
-chsh -s $(which zsh)
+sudo chsh -s $(which zsh)
