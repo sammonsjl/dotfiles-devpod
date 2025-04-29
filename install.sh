@@ -2,8 +2,6 @@
 
 rm -f ~/.zshrc
 
-stow --target ~/.config . -v
-
 stow -t ~ nvim
 stow -t ~ starship
 stow -t ~ tmux
