@@ -2,16 +2,16 @@
 
 rm -f ~/.zshrc
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+
+rm -rf ~/.config/nvim/.git
+
 stow -t ~ lazygit
 stow -t ~ nvim
 stow -t ~ starship
 stow -t ~ tmux
 stow -t ~ zshrc
-
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-git clone https://github.com/LazyVim/starter ~/.config/nvim
-
-rm -rf ~/.config/nvim/.git
 
 PUBLIC_KEY=$(ssh-add -L | grep "Github")
 
