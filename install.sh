@@ -3,6 +3,7 @@
 rm -f ~/.zshrc
 
 stow -t ~ lazygit
+stow -t ~ nvim
 stow -t ~ starship
 stow -t ~ tmux
 stow -t ~ zshrc
