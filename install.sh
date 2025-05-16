@@ -6,6 +6,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 rm -rf ~/.config/nvim/.git
+rm -f ~/.config/nvim/init.lua
 
 stow -t ~ lazygit
 stow -t ~ nvim
