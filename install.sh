@@ -7,6 +7,7 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 rm -rf ~/.config/nvim/.git
 rm -f ~/.config/nvim/init.lua
+rm -f ~/.config/nvim/lua/config/keymaps.lua
 
 stow -t ~ lazygit
 stow -t ~ nvim
